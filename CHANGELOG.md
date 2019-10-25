@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing yet.
 
+## [1.0.1] - 2019-10-25
+
+### Fixed
+
+  - Ensure cleanUp/graceful shutdown functionality is only active if not bypassed.
+  - Ensure cleanUp() method exists whether bypass is requested or not.
+
 ## [1.0.0] - 2019-10-25
 
 First release of fork.
