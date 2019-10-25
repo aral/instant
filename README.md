@@ -1,6 +1,21 @@
 # instant – transparent live-reloading
 
-[![Build Status](https://travis-ci.org/fgnass/instant.png)](https://travis-ci.org/fgnass/instant)
+---
+
+## Note: this is a fork.
+
+__This is a fork of [instant](https://github.com/fgnass/instant) that does two things:
+
+  - Fixes all security and other warnings from npm. ([Pull request]())
+  - Adds a method to remove file system watches and calls this automatically for graceful shutdown if the app is terminated. ([Pull request]()).
+
+I’m publishing this fork temporarily for our own use at [Small Technology Foundation](https://small-tech.org) in [Site.js](https://sitejs.org) and you are, of course, more than welcome to use it in your projects but please keep an eye on [Felix Gnass’s original repository](https://github.com/fgnass/instant) and use the module from there once the above pull requests have been merged (as we will be doing also).
+
+Thank you, Felix, for an absolutely delightful module that has made my life so much easier today :)
+
+__Original readme follows:__
+
+---
 
 Instant is ultra lightweight live-reload implementation with a unique feature set:
 

@@ -1,12 +1,12 @@
 {
-  "name": "instant",
-  "version": "1.10.1",
+  "name": "@small-tech/instant",
+  "version": "1.0.0",
   "main": "lib",
   "author": "Felix Gnass <fgnass@gmail.com>",
   "contributors": [
     "Aral Balkan <mail@ar.al> (https://ar.al)"
   ],
-  "description": "drop-in replacement for connect.static with live-reload support",
+  "description": "Fork of instant. Drop-in replacement for connect.static with live-reload support.",
   "license": "MIT",
   "keywords": [
     "live",
@@ -14,10 +14,10 @@
     "livereload",
     "css"
   ],
-  "homepage": "https://github.com/fgnass/instant",
+  "homepage": "https://github.com/aral/instant",
   "repository": {
     "type": "git",
-    "url": "http://github.com/fgnass/instant.git"
+    "url": "http://github.com/aral/instant.git"
   },
   "scripts": {
     "test": "mocha --require should",
