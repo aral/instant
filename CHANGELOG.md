@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing yet.
 
+## [1.0.3] - 2019-10-25
+
+### Changed
+
+  - Update sendevent module to latest version.
+
 ## [1.0.2] - 2019-10-25
 
 ### Fixed
