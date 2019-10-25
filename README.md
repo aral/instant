@@ -4,7 +4,7 @@
 
 ## Note: this is a fork.
 
-__This is a fork of [instant](https://github.com/fgnass/instant) that does two things:
+This fork of [instant](https://github.com/fgnass/instant) does two things differently:
 
   - Fixes all security and other warnings from npm. ([Pull request]())
   - Adds a method to remove file system watches and calls this automatically for graceful shutdown if the app is terminated. ([Pull request]()).
