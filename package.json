@@ -24,6 +24,7 @@
     "prepare": "browserify client/index.js -o client/bundle.js"
   },
   "dependencies": {
+    "@small-tech/sendevent": "^1.0.0",
     "filewatcher": "^3.0.1",
     "node-graceful": "^2.0.1",
     "send": "^0.17.1",
