@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing yet.
 
-## [1.0.4] - 2019-10-26
+## [1.0.4, 1.0.5] - 2019-10-26
 
 ### Fixed
 

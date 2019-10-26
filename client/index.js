@@ -1,4 +1,4 @@
-var on = require('sendevent')
+var on = require('@small-tech/sendevent')
   , parse = require('./url')
   , find = require('./find')
   , replace = require('./replace')
