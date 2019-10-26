@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing yet.
 
+## [1.0.4] - 2019-10-26
+
+### Fixed
+
+  - Firefox disconnection issues 30 seconds after page load and on page reload.
+
 ## [1.0.3] - 2019-10-25
 
 ### Changed
