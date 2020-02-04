@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 Nothing yet.
 
+## [1.0.7] - 2020-02-04
+
+### Added
+
+  - Multiple roots support. [See issue.](https://github.com/fgnass/instant/issues/6#issuecomment-69348881)
+
 ## [1.0.6] - 2019-10-28
 
 ### Fixed
