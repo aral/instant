@@ -6,30 +6,19 @@ var on = require('@small-tech/sendevent')
 var token
 
 function reloadPage() {
-  // Firefox has a quirk where it times out and disconnects an EventSource
-  // connection when the host (not hostname) is “localhost” and it does
-  // a regular reload from memory cache. Instead, we must do a forced reload from
-  // the server and also flag it so that sendevent doesn’t also do
-  // a forced reload just to be sure (and thereby adding an unnecessary reload).
-  // Also, when we do a forced reload, Firefox loses the current scroll position
-  // so we must save that so checking for the existence of the object that contains
-  // the location to restore is how we know that we have asked for a force reload.
-  if (navigator.userAgent.includes('Firefox') && document.location.host === 'localhost') {
-    window.locationToRestoreAfterForcedReload = {
-      x: window.scrollX,
-      y: window.scrollY
-    }
-    location.reload(true)
-  } else {
-    // In every other case, we can just do a regular reload.
-    location.reload()
-  }
+  location.reload()
 }
 
 on('/instant/events', function(ev) {
   if (ev.token) {
-    if (!token) token = ev.token
-    if (token != ev.token) return reloadPage()
+    if (!token) {
+      token = ev.token
+      return
+    }
+
+    if (token != ev.token) {
+      return reloadPage()
+    }
   }
 
   // reload page if it contains an element with the given class name
