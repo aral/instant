@@ -4,11 +4,11 @@
 
 ## Note: this is a fork.
 
-This fork of [instant](https://github.com/fgnass/instant). You should use the main project once the following pull requests have been merged:
+This fork of [instant](https://github.com/fgnass/instant). You should use the original module unless you need the following unmerged difference:
 
-### Awaiting merge
+### Unmerged
 
-  - Fixes disconnection issue on Firefox after 30 seconds of inactivity following a page load or a page reload. ([Pull request]())
+  - [Multiple roots](https://github.com/fgnass/instant/pull/18).
 
 ### Merged
 
